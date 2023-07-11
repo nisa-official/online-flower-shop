@@ -4,14 +4,11 @@
 }
 .nav-container{
     display: flex;
-    background-color: rgba(243, 10, 138, 0.996);
+    background-color: rgba(175, 8, 100, 0.996);
     padding: 20px;
     gap:10px;
     color: white;
     font-size: 15px;
-  
-    
-    
 }
 .style-logo{
     height: 60px;
@@ -20,7 +17,7 @@
 }
 .color{
     font-size: 50px;
-    color: blueviolet;
+    color: rgb(17, 102, 200);
     
 }
 .banner-container{
@@ -57,12 +54,13 @@
 }
 .btn{
     display: inline-flex;
-    padding: 8px;
+    padding: 10px 33px;
     align-items: flex-start;
     gap: 10px;
-    border-radius: 0px;
+    border-radius: 8px;
     background-color: #E55473;
     color: white;
+    border: none;
    
 }
 /* this is a main section */
@@ -88,15 +86,8 @@
  justify-content: center;
  padding-bottom: 30px;
  gap: 5px;
-
-
-
 }
  
-   
-
- 
-
 .img-card{
     height: 300px;
     width: 150px;
@@ -104,8 +95,6 @@
     background-color: rgba(167, 33, 98, 0.15);
     border-radius: 300px 300px 0px 0px;
     padding: 30px 30px 0px 40px;
-
-   
 }
 .img-card-1{
     height: 300px;
@@ -123,8 +112,18 @@
     border-radius: 300px 300px 0px 0px;
     padding: 20px 30px 0px 40px;
 
-
 }
+
+.sin-button {
+    display: inline-flex;
+    padding: 10px 33px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 8px;
+    background: #E55473;
+    border: none;
+}
+
 .text{
     display: flex;
     justify-content: center;
@@ -143,26 +142,6 @@
    padding-left: 100px;
     padding-bottom: 40px;
 }
-
-
-
-
-
-
-/* .text-style{
-    color: #272727;
-    text-align: center;
-    font-size: 13px;
-    font-weight: 700;
-    line-height: 35px;
-    text-decoration-line: underline;
-     padding-top: 220px;
-     text-align-last: center;
-} */
-
-
-
-
 /* this is a footer section */
 .footer-container{
     /* margin: 80px; */
@@ -198,8 +177,6 @@
     background-color: rgba(229, 84, 115, 0.10) ;
     background-position: bottom right;
     padding: 20px 0px 20px 50px;
-   
-
 }
 .color{
     color: #E55473;
@@ -235,4 +212,24 @@
 }
 .common{
     height:300px;
+}
+.last-section{
+    width: 100%;
+    height: 70vh;
+    background-image: url(../image/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    margin-left: 40px;
+}
+.box-type{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+.type-style{
+    width: 30%;
+    border: none;
+    
+}
+.section-description{
+    padding-bottom: 10px;
 }
